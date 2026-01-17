@@ -4,10 +4,11 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "rich_logger"
-version = "0.1.0"
-description = "My custom loguru logger"
+version = "0.1.2"
+description = "My custom loguru logger with streaming support"
 dependencies = [
-    "loguru"
+    "loguru",
+    "rich"
 ]
 
 [tool.setuptools.packages.find]
