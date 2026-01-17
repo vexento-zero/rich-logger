@@ -47,7 +47,7 @@ class StreamPrinter:
     def __exit__(self, exc_type, exc_val, exc_tb):
         self.live.stop()
         # 结束后打印一个换行，确保下一条日志正常
-        self.console.print()
+        # self.console.print()
 
 # 导出方便调用
 logger.stream = StreamPrinter
