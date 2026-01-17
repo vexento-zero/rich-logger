@@ -7,7 +7,7 @@ name = "rich_logger"
 version = "0.1.0"
 description = "My custom loguru logger"
 dependencies = [
-    "loguru"  # 必须写上依赖，pip 会自动安装它
+    "loguru"
 ]
 
 [tool.setuptools.packages.find]
