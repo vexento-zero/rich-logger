@@ -35,7 +35,7 @@
 由于该项目目前托管在 GitHub，你可以通过以下命令直接安装：
 
 ```bash
-pip install git+https://github.com/vexento-zero/rich-logger.git
+pip install --no-cache-dir --force-reinstall git+https://github.com/vexento-zero/rich-logger.git
 ```
 
 或者将其添加到你的 `requirements.txt`：
