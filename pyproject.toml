@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rich_logger"
+version = "0.1.2"
+description = "My custom loguru logger with streaming support"
+dependencies = [
+    "loguru",
+    "rich"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
